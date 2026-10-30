@@ -1,0 +1,10 @@
+salt_buckets,trial,baseline_seconds,salted_seconds,correctness,reconciliation
+8,1,2.0495,2.7155,True,True
+8,2,1.9592,2.4413,True,True
+8,3,1.8589,2.4547,True,True
+16,1,1.9669,2.5116,True,True
+16,2,2.0888,2.516,True,True
+16,3,1.8833,2.4538,True,True
+32,1,1.7863,2.3863,True,True
+32,2,1.7536,2.4533,True,True
+32,3,1.8656,2.5283,True,True

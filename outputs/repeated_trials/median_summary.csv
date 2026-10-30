@@ -1,0 +1,4 @@
+salt_buckets,trials,median_baseline_seconds,median_salted_seconds,all_correct,all_reconciled
+8,3,1.9592,2.4547,True,True
+16,3,1.9669,2.5116,True,True
+32,3,1.7863,2.4533,True,True

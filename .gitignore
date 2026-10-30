@@ -1,0 +1,33 @@
+# Python environment and cache
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Generated benchmark datasets
+data/benchmark/
+data/benchmark_500k/
+data/benchmark_1m/
+
+# Generated Spark output directories
+outputs/idempotency_test/
+outputs/run_*/
+outputs/repeated_trials/salt*_trial*/
+outputs/repeated_trials/.*
+outputs/*_comparison.csv
+
+# Keep benchmark evidence
+!outputs/repeated_trials/
+outputs/repeated_trials/*
+!outputs/repeated_trials/trial_results.csv
+!outputs/repeated_trials/median_summary.csv
+!outputs/salt_bucket_comparison.csv
+
+# System files
+.DS_Store
+data/benchmark_1m/
+data/benchmark_500k/
+data/benchmark/
+outputs/idempotency_test/
+outputs/run_*/
+outputs/repeated_trials/salt*_trial*/

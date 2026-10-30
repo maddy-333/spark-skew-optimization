@@ -1,0 +1,4 @@
+configuration,input_rows,accepted_rows,rejected_rows,baseline_seconds,salted_seconds,correctness,reconciliation
+8_buckets,1000001,999995,6,1.8352,2.6611,True,True
+16_buckets,1000001,999995,6,1.9638,2.4613,True,True
+32_buckets,1000001,999995,6,1.711,2.5148,True,True
